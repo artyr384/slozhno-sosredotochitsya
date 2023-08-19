@@ -21,12 +21,13 @@
   --title-color3: #353430;
   --title-color4: #353430;
   --decorated-color: rgb(53, 52, 48, 0);
+  --main-font: 'IBM Plex mono';
   background-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #FFF1F7;
+  --bg-color: #FFF1F7;
   --text-color: #353430;
   --accent-color: #FF8DCB;
   --title-color: #FFC2E6;
@@ -38,6 +39,7 @@
   --title-color3: #353430;
   --title-color4: #353430;
   --decorated-color: rgb(53, 52, 48, 0);
+  --main-font: 'IBM Plex mono';
   background-image: url(../images/cover-image-light.png);
   }
 }

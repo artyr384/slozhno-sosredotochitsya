@@ -17,7 +17,7 @@
   position: absolute;
   color: var(--decorated-color, #FF0070);
   font-weight: 400;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
   inset-inline-end: clamp(2.375rem, 1.7771rem + 2.551vw, 3rem);
@@ -81,11 +81,11 @@
   color: var(--button-color, #FF0070);
   font-family: var(--main-font, 'IBM Plex mono'), sans-serif;
   font-weight: 400;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 23.4px;
   text-align: center;
   cursor: pointer;
-  text-transform: uppercase;
+  text-transform: lowercase;
   background-color: transparent;
   border: none;
 }
@@ -142,7 +142,7 @@
 .section__title {
   color: var(--title-color2, #FF0070);
   font-weight: 700;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 23.4px;
 }
 
@@ -161,7 +161,7 @@
 .card__text {
   color: var(--text-color, #F1B2CE);
   font-weight: 400;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 23.4px;
   margin-block-end: 10px;
 }
@@ -174,7 +174,7 @@
   background-color: var(--accent-color, #FF0070);
   color: var(--title-color4, #000028);
   font-weight: 400;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 23.4px;
   margin-block-start: 20px;
   margin-block-end: 10px;
@@ -188,7 +188,7 @@
   background-color: var(--accent-color, #FF0070);
   color: var(--title-color4, #000028);
   font-weight: 700;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 23.4px;
   margin-block-end: clamp(0rem, -0.5979rem + 2.551vw, 0.625rem);
 }
