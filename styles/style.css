@@ -337,6 +337,16 @@
   }
 
   .cards-columns {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
   }
+
+  .img {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(229px, 315px));
+    grid-template-rows: 260px 315px 433px;
+    gap: 20px;
+  }
+
 }
