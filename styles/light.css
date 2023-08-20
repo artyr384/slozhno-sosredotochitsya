@@ -22,7 +22,7 @@
   --title-color4: #353430;
   --decorated-color: rgb(53, 52, 48, 0);
   --main-font: 'IBM Plex mono';
-  background-image: url(../images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -40,6 +40,6 @@
   --title-color4: #353430;
   --decorated-color: rgb(53, 52, 48, 0);
   --main-font: 'IBM Plex mono';
-  background-image: url(../images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
   }
 }

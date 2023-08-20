@@ -4,7 +4,7 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   display: grid;
   font-family: var(--main-font, 'IBM Plex mono'), sans-serif;
-  background-image: url(../images/cover-image-dark.png);
+  background-image: var(--bg-image);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -319,7 +319,7 @@
 
   .header__title
   .footer__title {
-    text-shadow: 4px 4px var(--shadow-1-color, #FF0070);
+    text-shadow: 4px 4px var(--shadow-color1, #FF0070);
   }
 
   .header__text {
