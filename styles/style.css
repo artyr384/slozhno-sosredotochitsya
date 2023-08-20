@@ -224,7 +224,7 @@
   font-weight: 700;
   line-height: 82.5%;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  text-shadow: 2px 2px var(--shadow-color, #FF0070);
+  text-shadow: 2px 2px var(--shadow-color1, #FF0070);
 }
 
 .footer::after {
