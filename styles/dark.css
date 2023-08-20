@@ -9,4 +9,18 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #DB00FF;
+  --button-color: #FF0070;
+  --shadow-color: #FF0070;
+  --shadow-color1: #FF0070;
+  --shadow-color2: #FF0070;
+  --title-color2: #FF0070;
+  --title-color3: #000028;
+  --title-color4: #000028;
+  --decorated-color: #FF0070;
+  --main-font: 'IBM Plex mono';
+  --bg-image: url(../images/cover-image-dark.png);
 }
