@@ -39,4 +39,21 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: underline currentColor;
+}
+
+a:focus-visible {
+  outline: 1px solid currentColor;
+}
+
+button:hover {
+  outline: 1px solid currentColor;
+}
+
+button:focus-visible {
+  text-decoration: underline currentColor;
 }
