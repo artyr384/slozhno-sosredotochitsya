@@ -36,10 +36,6 @@
   display: none;
 }
 
-.theme_auto .header__rec {
-  display: none;
-}
-
 .header {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
