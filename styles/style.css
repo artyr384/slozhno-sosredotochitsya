@@ -295,6 +295,7 @@
   }
 
   .header__title {
+    font-size: 157px;
     text-shadow: 4px 4px var(--shadow-color1, #FF0070);
   }
 
@@ -320,11 +321,13 @@
 
   .img {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(229px, 315px));
+    grid-template-rows: 260px 315px 428px;
     gap: 20px;
   }
 
   .footer__title {
+    font-size: 157px;
     text-shadow: 4px 4px var(--shadow-color1, #FF0070);
   }
 }
