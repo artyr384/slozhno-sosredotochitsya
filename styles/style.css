@@ -5,10 +5,9 @@
   display: grid;
   font-family: var(--main-font, 'IBM Plex mono'), monospace;
   background: var(--bg-color, #000028) var(--bg-image) no-repeat center/cover fixed;
-  position: relative;
 }
 
-.theme_dark .header__rec {
+.header__rec {
   content: "";
   position: absolute;
   color: var(--decorated-color, #ff0070);
@@ -16,11 +15,13 @@
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
-  inset-inline-end: clamp(2.375rem, 1.7771rem + 2.551vw, 3rem);
-  inset-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
+  justify-self: end;
+  align-self: start;
+  padding-inline-end: clamp(2.375rem, 1.7771rem + 2.551vw, 3rem);
+  padding-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
 }
 
-.theme_dark .header__rec::after {
+.header__rec::after {
   content: "";
   position: absolute;
   margin-inline-start: 10px;
@@ -32,17 +33,9 @@
   block-size: 9px;
 }
 
-.theme_light .header__rec {
-  display: none;
-}
-
-.theme_auto .header__rec {
-  display: none;
-}
-
 .header {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
   block-size: 100vb;
 }
 
@@ -52,8 +45,8 @@
   align-self: end;
   margin-inline-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
   margin-block-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
-  border-inline-start: solid 1px var(--shadowcolor2, #ff0070);
-  border-block-end: solid 1px var(--shadow-color2, #ff0070);
+  border-inline-start: 1px solid var(--shadowcolor2, #ff0070);
+  border-block-end: 1px solid var(--shadow-color2, #ff0070);
   inline-size: 25px;
   block-size: 25px;
 }
@@ -65,8 +58,8 @@
   align-self: start;
   margin-inline-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
   margin-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
-  border-inline-end: solid 1px var(--shadow-color2, #ff0070);
-  border-block-start: solid 1px var(--shadow-color2, #ff0070);
+  border-inline-end: 1px solid var(--shadow-color2, #ff0070);
+  border-block-start: 1px solid var(--shadow-color2, #ff0070);
   inline-size: 25px;
   block-size: 25px;
 }
