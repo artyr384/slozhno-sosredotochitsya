@@ -5,7 +5,7 @@
   display: grid;
   font-family: var(--main-font, 'IBM Plex mono'), monospace;
   background: var(--bg-color, #000028) var(--bg-image) no-repeat center/cover fixed;
-  position: absolute;
+  position: relative;
 }
 
 .theme_dark .header__rec {
@@ -33,6 +33,10 @@
 }
 
 .theme_light .header__rec {
+  display: none;
+}
+
+.theme_auto .header__rec {
   display: none;
 }
 
@@ -111,6 +115,7 @@
   line-height: 82.5%;
   text-shadow: 4px 4px var(--shadow-color, #FF0070);
   align-self: center;
+  margin-inline-start: 10px;
 }
 
 .header__text {
